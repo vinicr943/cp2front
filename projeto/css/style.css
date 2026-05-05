@@ -1,0 +1,17 @@
+.grandes-clubes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-time {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+
+
+
+
