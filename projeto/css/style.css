@@ -1,17 +1,106 @@
-.grandes-clubes {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0;
+    padding: 30px 0;
+}
+
+/* Cor de fundo das seções */
+#inicio {
+    background-color: #001190;
+}
+#momentos {
+    background-color: #011a7c;
+}
+
+
+
+nav {
+    background: #04066b;
+    width: 100%;
+    box-shadow: 1px 1px 10px #00000094;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+}
+
+nav ul li {
+    padding: 1px 0;
+    list-style: none;
+    color: #ffffff;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    padding: 10px 25px;
+}
+
+
+
+#titulo-inicio {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+h4 {
+    color: #ffffff;
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+p {
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+}
+
+.texto-momentos {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+.fotos-momentos {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    display: block;
+}
+
+.Momentos > div {
+    display: flex;
     align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
 }
-
-.logo-time {
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-}
-
-
-
-
-
