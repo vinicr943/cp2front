@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Share+Tech&display=swap" rel="stylesheet"> 
@@ -14,10 +15,10 @@
  
     <nav>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#historia">História</a></li>
-          <li><a href="#momentos">Momentos</a></li>
-          <li>Jogadores</li>
+          <li><a href="#inicio" class="botao">Inicio</a></li>
+          <li><a href="#historia" class="botao">História</a></li>
+          <li><a href="#momentos" class="botao">Momentos</a></li>
+          <li><a href="#jogadores" class="botao">Jogadores</a></li>
           <li>Finais</li>
         </ul>
     </nav>
@@ -33,7 +34,7 @@
      
      
       <section id="historia">
-        <h2>História</h2>
+        <h2><i class="bx bx-history"></i>História do Torneio</h2>
 
         <p>A UEFA Champions League é a principal competição de clubes de futebol da Europa. Criada em 1955 como Copa dos Clubes Campeões Europeus, o torneio reunia os melhores times do continente em busca do título mais importante do futebol europeu.</p>
 
@@ -47,31 +48,64 @@
 
 </div>
     
-    <section id="momentos">
-    <h2 id="titulo-momentos">Momentos</h2>
+<section id="momentos">
+ <h2 id="titulo-momentos"><i class="bx bx-star"></i>Momentos históricos</h2>
 
      <div class="Momentos">
+    
+          <div>
+           <img class="fotos-momentos" src="./projeto/imagens/barcelona.jpg">
+           <h4>Barcelona 6 x 1 PSG (Remontada de 2017)</h4>
+           <p class="texto-momentos">Após perder por 4 a 0 no jogo de ida, o Barcelona protagonizou uma das maiores viradas da história da Champions League ao vencer o PSG por 6 a 1 no Camp Nou. Com um gol decisivo de Sergi Roberto nos minutos finais, a equipe conquistou uma classificação histórica e eternizou a famosa “Remontada”.</p>           
+          </div>
 
-        <div>
-            <img class="fotos-momentos" src="./projeto/imagens/zidane.jpg">
-            <h4>Zidane e o voleio na final de 2002 (Real Madrid x Bayer Leverkusen)</h4>
-            <p class="texto-momentos">Na final de Glasgow, Zinedine Zidane marcou um dos gols mais famosos da história com um voleio de perna esquerda antes do intervalo, dando ao Real Madrid o título por 2 a 1. O lance é frequentemente citado entre os momentos mais icônicos da competição.</p>           
-        </div>
-
-        <div>
+          <div>
             <img class="fotos-momentos" src="./projeto/imagens/decima.jpg">
             <h4>La Décima em 2014</h4>
             <p class="texto-momentos">Na final contra o Atlético de Madrid, o Real Madrid perdia até os acréscimos, quando Sergio Ramos empatou aos 92:48. O time venceu na prorrogação e conquistou a histórica décima Champions, um dos gols mais decisivos já vistos.</p>          
-        </div>
+          </div>
 
-        <div>
+          <div>
             <img class="fotos-momentos" src="./projeto/imagens/escanteio.jpeg">
             <h4>Liverpool x Barcelona em 2019</h4>
             <p class="texto-momentos">Após perder por 3 a 0 na ida, o Liverpool F.C. venceu o FC Barcelona por 4 a 0 em Anfield. O momento símbolo foi o escanteio cobrado rapidamente por Trent Alexander-Arnold para o gol de Divock Origi, numa das maiores viradas da história recente.</p>
+          </div>
+  
+     </div>
+
+</section>
+
+<section id="jogadores">
+    <h2><i class="bx bx-football-kick"></i>Jogadores</h2>
+
+    <div class="lista-jogadores">
+
+        <div class="jogador">
+         <img class="foto-jogador" src="./projeto/imagens/cristiano.avif">
+         <div class="info-jogador">
+           <h4>Cristiano Ronaldo</h4>
+           <p>Maior artilheiro da história da Champions League, com mais de 140 gols marcados e 5 títulos conquistados na competição.</p>
+         </div>
         </div>
 
-     </div>
-    </section>
+        <div class="jogador">
+         <img class="foto-jogador" src="./projeto/imagens/messi.jpg">
+          <div class="info-jogador">
+            <h4>Lionel Messi</h4>
+            <p>Messi brilhou com sua habilidade e talento, somando mais de 120 gols e 4 títulos da Champions League.</p>
+          </div>
+        </div>
+
+        <div class="jogador">
+         <img class="foto-jogador" src="./projeto/imagens/lewandowski.webp">
+         <div class="info-jogador">
+          <h4>Robert Lewandowski</h4>
+          <p>Robert Lewandowski marcou mais de 90 gols na UEFA Champions League, conquistou 1 título pelo Bayern de Munique e se tornou um dos maiores artilheiros da história da competição.</p>
+         </div>
+        </div>
+
+    </div>
+</section>
 
 
 
