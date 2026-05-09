@@ -235,3 +235,31 @@ a {
     font-weight: 700;
     font-style: normal; 
 }
+
+#finais {
+    background-color: #011b83;
+}
+
+.fotos-finais {
+    width: 309px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    flex-shrink: 0;
+    margin-left: 28px;
+    display: block;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.finais > div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.finais > div:hover {
+    background: rgba(22, 80, 255, 0.352);
+    transform: translateY(-10px);
+}
