@@ -17,6 +17,7 @@
 
 .lista-jogadores > div:hover {
     background:   rgba(22, 80, 255, 0.352);
+    transform: translateY(-10px);
 }
 
 #jogadores {
@@ -50,6 +51,7 @@
 
 .Momentos > div:hover {
     background: rgba(22, 80, 255, 0.352);
+    transform: translateY(-10px);
 }
 
 section {
@@ -121,6 +123,7 @@ nav {
     box-shadow: 1px 1px 10px #00000098;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -211,12 +214,8 @@ p {
 }
 
 
-#momentos .fotos-momentos {
+.Momentos > div {
     cursor: pointer;
-
-    &:hover img {
-        transform: translateY(-15px);
-    }
     
     img {
         transition: all .5s ease-in-out;
