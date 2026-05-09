@@ -263,3 +263,35 @@ a {
     background: rgba(22, 80, 255, 0.352);
     transform: translateY(-10px);
 }
+
+footer {
+    background-color: #011b83;
+}
+
+.rodape-contato {
+    padding: 40px 30px;
+    background-color: #011b83;
+}
+
+#titulo-rodape {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.rodape-contato p {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    background-color: #04066b;
+    text-align: center;
+    padding: 25px;
+}
+
+.copyright h3 {
+    color: white;
+    font-size: 24px;
+    font-family: "Abel", sans-serif;
+    margin-bottom: 10px;
+}
